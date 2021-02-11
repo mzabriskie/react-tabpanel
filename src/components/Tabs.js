@@ -63,7 +63,7 @@ export default class Tabs extends Component {
     }
 
     const state = {
-      // Sets focus to the active tab (should this always be true?)
+      // Sets focus to the active tab
       focus: event.type === 'keydown' || event.type === 'click',
     };
 
